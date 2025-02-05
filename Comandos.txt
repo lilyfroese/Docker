@@ -1,0 +1,29 @@
+1) comando para montar imagem -> "docker build -t meu-node-vite ."
+
+2) comando para executar o container -> Linux : "docker run -it --rm -v $(pwd):/app -p 5173:5173 meu-node-vite" | Windowns: "docker run -it --rm -v ${PWD}:/app -p 5173:5173 meu-node-vite bash"
+
+3) comando para ativiar o HotReload -> "export CHOKIDAR_USEPOLLING=true"
+
+4) comando para iniciar nosso servidor dentro do docker -> "npm run dev -- --host"
+
+5) comando para instalar o Tailwind com o npm -> "npm install tailwindcss @tailwindcss/vite"
+
+6) adicionar 2 linhas de código ao nosso arquivo vite.config.js "import tailwindcss from '@tailwindcss/vite'" e "tailwindcss(),"
+
+----------------------------
+
+
+Bibliotecas: 
+
+Rotas  -> "npm install react-router-dom"
+
+
+
+icones -> "npm install react-icons"
+
+Os icones podem ser selecionados neste site (https://react-icons.github.io/react-icons/)
+
+animações -> "npm install framer-motion"
+
+
+
